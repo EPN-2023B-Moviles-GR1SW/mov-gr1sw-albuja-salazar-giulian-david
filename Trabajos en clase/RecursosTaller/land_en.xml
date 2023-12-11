@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="saludo">Good day en land</string>
+    <color name="color">#FF22FF</color>
+    <color name="textcolor">#118800</color>
+    <string name="font">serif</string>
+</resources>

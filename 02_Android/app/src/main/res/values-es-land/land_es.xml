@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="saludo">Buenos dias en landscape</string>
+    <color name="color">#FF2211</color>
+    <color name="textcolor">#00FFFF</color>
+    <string name="font">arial</string>
+</resources>

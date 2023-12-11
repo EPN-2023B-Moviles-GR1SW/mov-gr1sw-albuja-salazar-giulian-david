@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="saludo">Good day en port</string>
+    <color name="color">#000000</color>
+    <color name="textcolor">#FFFF00</color>
+    <string name="font">courier</string>
+</resources>
