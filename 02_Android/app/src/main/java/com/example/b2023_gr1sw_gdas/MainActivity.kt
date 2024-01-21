@@ -11,10 +11,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_main)
+
         val botonCicloVida = findViewById<Button>(R.id.btn_ciclo_vida)
         botonCicloVida
             .setOnClickListener {
                 irActividad(ACicloVida::class.java)
+            }
+
+
+        val botonListView = findViewById<Button>(R.id.btn_ir_list_view)
+        botonListView
+            .setOnClickListener {
+                irActividad(BListView::class.java)
             }
     }
 

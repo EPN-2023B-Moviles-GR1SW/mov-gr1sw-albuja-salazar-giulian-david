@@ -39,6 +39,44 @@ class ACicloVida : AppCompatActivity() {
         mostrarSnackbar("onRestart")
     }
 
+    override fun onPause() {
+        super.onPause()
+        mostrarSnackbar("onPause")
+    }
+    override fun onStop() {
+        super.onStop()
+        mostrarSnackbar( "onStop")
+    }
+    override fun onDestroy() {
+        super.onDestroy()
+        mostrarSnackbar( "onDestroy")
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.run {
+            // GUARDAR LAS VARIABLES
+            // PRIMITIVOS
+            putString("textoGuardado", textoGlobal)
+            //putInt("numeroGuardado", numero)
+        }
+        super.onSaveInstanceState(outState)
+    }
+
+    override fun onRestoreInstanceState(
+        savedInstanceState: Bundle
+    ) {
+        super.onRestoreInstanceState(savedInstanceState)
+        // RECUPERAR LAS VARIABLES
+        // PRIMITIVOS
+        val textoRecuperado:String? = savedInstanceState
+            .getString("textoGuardado")
+        // val textoRecuperado:Int? = savedInstanceState
+        // .getInt("numeroGuardado")
+        if(textoRecuperado!= null){
+            mostrarSnackbar(textoRecuperado)
+            textoGlobal = textoRecuperado
+        }
+    }
 
 }
 
