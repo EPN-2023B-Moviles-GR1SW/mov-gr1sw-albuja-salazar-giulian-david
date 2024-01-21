@@ -109,6 +109,7 @@ class BListView : AppCompatActivity() {
             .setOnClickListener {
                 anadirEntrenador(adaptador)
             }
+        registerForContextMenu(listView)
     }
     fun anadirEntrenador(
         adaptador: ArrayAdapter<BEntrenador>
