@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "526639396315",
+    "project_id": "notiondarmy",
+    "storage_bucket": "notiondarmy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526639396315:android:b70ccd3170d34aec62a3fe",
+        "android_client_info": {
+          "package_name": "com.example.examen2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFyEx6NZzca-cnv2zR0OHKXFURYOlQmBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526639396315:android:1ace2ef975e2bbc662a3fe",
+        "android_client_info": {
+          "package_name": "com.example.notion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFyEx6NZzca-cnv2zR0OHKXFURYOlQmBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526639396315:android:da66f830f980f41e62a3fe",
+        "android_client_info": {
+          "package_name": "com.example.notiondarmy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFyEx6NZzca-cnv2zR0OHKXFURYOlQmBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
