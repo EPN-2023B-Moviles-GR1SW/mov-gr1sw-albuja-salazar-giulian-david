@@ -27,7 +27,7 @@ class FireStorePlaneta {
             .addOnFailureListener {  }
 
     }
-    fun eliminarHabitante(){
+    fun eliminarPlaneta(){
 
         planetasCollection.document(PlanetasDashboard.arregloPlanetas[PlanetasDashboard.posicion_planetas].id)
             .delete()

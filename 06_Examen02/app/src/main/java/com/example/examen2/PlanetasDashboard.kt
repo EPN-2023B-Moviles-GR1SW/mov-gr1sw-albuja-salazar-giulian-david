@@ -210,7 +210,7 @@ class PlanetasDashboard : AppCompatActivity() {
         builder.setPositiveButton(
             "Aceptar",
             DialogInterface.OnClickListener { dialog, which ->
-                firestorePlaneta.eliminarHabitante()
+                firestorePlaneta.eliminarPlaneta()
                 adaptador.notifyDataSetChanged()
                 mostrarSnackbar("Planeta eliminado exitosamente")
             }
